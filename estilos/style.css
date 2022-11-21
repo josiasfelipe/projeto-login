@@ -61,4 +61,55 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+    padding-bottom: 5px;
+}
+
+form > div.campo {
+    background-color: #5f2c82;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+form > div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #4bb1ad;
+    cursor: pointer;
+}
+
+form > a.botão {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: #66e7e3;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #3f8885;
+}
+
+form > a.botão:hover {
+    background-color: #6ffffa;
+}
+
+form > a.botão > i {
+    font-size: 0.8em;
 }
